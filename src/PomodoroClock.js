@@ -131,7 +131,7 @@ class PomodoroClock extends React.Component {
                   value={this.clockify()}
                   style={this.state.alarmColor}/>
         <audio id="beep" preload="auto"
-          src="https://www.mboxdrive.com/bell.mp3"
+          src="./music/bell.mp3"
           ref={(audio) => { this.audio = audio; }} />
       </div>
 
